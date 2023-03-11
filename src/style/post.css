@@ -1,0 +1,33 @@
+.post {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+.post__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 50px; */
+}
+.post__add {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/21/18/14/wall-1846965_960_720.jpg);
+  width: 1600px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+}
+.post__inp {
+  height: 30px;
+  width: 300px;
+}
+.post__title {
+  display: flex;
+  align-items: center;
+}
+.post__title__done {
+  display: flex;
+  align-items: center;
+  text-decoration: line-through;
+}
